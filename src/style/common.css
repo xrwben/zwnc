@@ -1,0 +1,90 @@
+/* 顶部导航栏样式 */
+.header{
+  width: 100%;
+  height: 8.8rem;
+  line-height: 8.8rem;
+  /*padding: 0 3rem;*/
+  background: #fff;
+  text-align: center;
+  font-size: 3.6rem;
+  color: #333;
+  border-bottom: .1rem solid #e6e6e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header_left{
+  float: left;
+}
+.header_left i{
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background:url('../assets/back.png') no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  transform: translateY(.3rem);
+}
+.header_left span{
+  color: #10bfc7;
+  font-size: 3rem;
+  display: inline-block;
+}
+.header_right{
+  color: #666;
+  font-size:2.8rem;
+  float: right;
+}
+.header_right .right_a{
+  color: #666;
+}
+.header_right img{
+  width: 3.2rem;
+  height: 3.2rem;
+  transform: translateY(.8rem);
+}
+
+/* caption通用样式 本期推荐 */
+.caption{
+  height: 9rem;
+  color: #333;
+  font-size: 3rem;
+  line-height: 9rem;
+}
+.caption i{
+  height:4.5rem;
+  width: 1rem;
+  background:#10bfc7;
+  display: block;
+  float: left;
+  margin-top: 2rem;
+}
+.caption span{
+  margin-left: 2rem;
+}
+.content{
+  padding:0 3rem;
+}
+
+/* 连接样式 */
+.link_a{
+  color: #fff;
+}
+
+/* 顶部距离导航栏padding */
+.paddingTop{
+  padding-top: 8.8rem;
+}
+
+/* loadding样式 */
+.mint-indicator-wrapper{
+  padding: 3rem !important;
+}
+.mint-spinner-fading-circle{
+  width: 6.4rem !important;
+  height: 6.4rem !important;
+}
+.mint-indicator-text{
+  font-size: 3rem !important;
+}
